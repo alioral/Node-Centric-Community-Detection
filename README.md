@@ -1,1 +1,5 @@
 <h2>Node Centric Community Detection</h2>
+
+<p>As my school project I've implemented a clique finding algorithm that is based on an example featured by the book "Community Detection and Mining in Social Media" [1].</p>
+<p>The idea behind this code is to apply an efficient clique detection algorithm in order to find the largest clique in the system. The first trick mentioned in the algorithm is the pruning process where you get to inspect subgraphs in the large graphs and obtain a minimum clique size, later on omitted the nodes that do not qualify with the clique size (by qualify I mean having the neighbor size larger than or equal to minimum clique size). Later on basic clique algorithm, checking if the graph nodes are strictly connected, proceeds outputting the maximum clique size.</p>
+<p><i>[1] Lei Tang(Yahoo! Labs), Huan Liu(Arizona State University) Community Detection and Mining in Social Media, Morgan & Claypool Publishers, 2010</i></p>
