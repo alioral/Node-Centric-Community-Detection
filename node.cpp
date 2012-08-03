@@ -382,8 +382,8 @@ int main()
 {
     srand(time(0));
     vector< vector<int> >solutionSet;
-    ifstream file("graphFromBook.txt");
-    string word="",data="";
+    ifstream file("graphFromBook.txt"); //In my case I've used graphFromBook.txt including only the connections between edges
+    string word="",data="";				//Without the weight information. And first line MUST include the number of nodes in graph!
     getline(file,word);
     int node1,node2,weight,arrTemp[3];
     int numberOfNodes=atoi(word.c_str());
